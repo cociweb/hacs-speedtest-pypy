@@ -8,6 +8,7 @@ import voluptuous as vol
 
 from homeassistant.config_entries import ConfigFlow, ConfigFlowResult, OptionsFlow
 from homeassistant.core import callback
+from homeassistant import config_entries
 
 from .const import (
     CONF_SERVER_ID,
@@ -19,10 +20,11 @@ from .const import (
 from .coordinator import SpeedTestConfigEntry
 
 
-class SpeedTestFlowHandler(ConfigFlow, domain=DOMAIN):
-    """Handle Speedtest.net config flow."""
+class SpeedTestFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
+    """Handle SpeedTest config flow."""
 
     VERSION = 1
+    CONNECTION_CLASS = config_entries.CONN_CLASS_CLOUD_POLL
 
     @staticmethod
     @callback
