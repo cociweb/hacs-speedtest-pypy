@@ -1,0 +1,9 @@
+{
+    "domain": "speedtest_pypy",
+    "name": "SpeedTest-PyPy",
+    "codeowners": ["@cociweb"],
+    "config_flow": true,
+    "documentation": "https://github.com/cociweb/hacs-speedtest-pypy",
+    "iot_class": "cloud_polling",
+    "requirements": ["git+https://github.com/cociweb/SpeedTest-PyPy.git"]
+}
