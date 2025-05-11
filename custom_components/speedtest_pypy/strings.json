@@ -38,13 +38,13 @@
           "name": "Download",
           "state_attributes": {
             "server_name": {
-              "name": "[%key:custom_component::speedtest_pypy::entity::sensor::ping::state_attributes::server_name::name%]"
+              "name": "[%key:component::speedtest_pypy::entity::sensor::ping::state_attributes::server_name::name%]"
             },
             "server_country": {
-              "name": "[%key:custom_component::speedtest_pypy::entity::sensor::ping::state_attributes::server_country::name%]"
+              "name": "[%key:component::speedtest_pypy::entity::sensor::ping::state_attributes::server_country::name%]"
             },
             "server_id": {
-              "name": "[%key:custom_component::speedtest_pypy::entity::sensor::ping::state_attributes::server_id::name%]"
+              "name": "[%key:component::speedtest_pypy::entity::sensor::ping::state_attributes::server_id::name%]"
             },
             "bytes_received": {
               "name": "Bytes received"
@@ -55,13 +55,13 @@
           "name": "Upload",
           "state_attributes": {
             "server_name": {
-              "name": "[%key:custom_component::speedtest_pypy::entity::sensor::ping::state_attributes::server_name::name%]"
+              "name": "[%key:component::speedtest_pypy::entity::sensor::ping::state_attributes::server_name::name%]"
             },
             "server_country": {
-              "name": "[%key:custom_component::speedtest_pypy::entity::sensor::ping::state_attributes::server_country::name%]"
+              "name": "[%key:component::speedtest_pypy::entity::sensor::ping::state_attributes::server_country::name%]"
             },
             "server_id": {
-              "name": "[%key:custom_component::speedtest_pypy::entity::sensor::ping::state_attributes::server_id::name%]"
+              "name": "[%key:component::speedtest_pypy::entity::sensor::ping::state_attributes::server_id::name%]"
             },
             "bytes_sent": {
               "name": "Bytes sent"

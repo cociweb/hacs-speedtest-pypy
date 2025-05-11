@@ -20,4 +20,4 @@ DEFAULT_NAME: Final = "SpeedTest-PyPy"
 DEFAULT_SCAN_INTERVAL: Final = 60
 DEFAULT_SERVER: Final = "*Auto Detect"
 
-ATTRIBUTION: Final = "Data retrieved from Speedtest.net by Ookla"
+ATTRIBUTION: Final = "Data retrieved from Speedtest.net by Ookla/SpeedTest-PyPy"
